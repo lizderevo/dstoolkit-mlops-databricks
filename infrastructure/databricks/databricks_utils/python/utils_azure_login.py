@@ -9,6 +9,9 @@ ARM_CLIENT_ID = os.environ['ARM_CLIENT_ID']
 ARM_CLIENT_SECRET = os.environ['ARM_CLIENT_SECRET']
 ARM_TENANT_ID = os.environ['ARM_TENANT_ID']
 
+ARM_CLIENT_ID = c6cb48dd-9e1f-45b6-a0b7-2006b911b0b9
+ARM_CLIENT_SECRET = BWH8Q~g2NJPmCKtMgs0k1vbhilu_7S6cVVo6QaFV
+ARM_TENANT_ID = 7ae1883b-83f0-42cb-a513-17fa352588a5
 
 def run_cmd(cmd):
     """
