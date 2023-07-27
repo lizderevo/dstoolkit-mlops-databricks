@@ -39,11 +39,11 @@ def createBearerToken(tokenRequestBody, tokenRequestHeaders, tokenBaseURL):
 if __name__ == "__main__":
     tokenRequestBody = {
         'grant_type': 'client_credentials',
-        'client_id': os.environ['ARM_CLIENT_ID'],
-        'client_secret': os.environ['ARM_CLIENT_SECRET']
+        'client_id': 'c6cb48dd-9e1f-45b6-a0b7-2006b911b0b9',
+        'client_secret': 'BWH8Q~g2NJPmCKtMgs0k1vbhilu_7S6cVVo6QaFV'
     } 
     tokenRequestHeaders = {'Content-Type': 'application/x-www-form-urlencoded'}
-    tokenBaseURL = 'https://login.microsoftonline.com/' + os.environ['ARM_TENANT_ID'] + '/oauth2/token'
+    tokenBaseURL = 'https://login.microsoftonline.com/' + '7ae1883b-83f0-42cb-a513-17fa352588a5' + '/oauth2/token'
 
     bearerToken = createBearerToken(tokenRequestBody=tokenRequestBody, 
                                     tokenRequestHeaders=tokenRequestHeaders, 
