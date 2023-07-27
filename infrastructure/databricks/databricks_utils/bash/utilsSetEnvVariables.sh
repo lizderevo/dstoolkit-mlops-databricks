@@ -24,7 +24,7 @@ SUBSCRIPTION_ID=$( az account show --query id -o tsv )
 #echo $SUBSCRIPTION_ID
 #echo $AML_WS_NAME
 #echo $DATABRICKS_WS_NAME
-#DATABRICKS_TOKEN=$(az keyvault secret show --name "dbkstoken" --vault-name $AZ_KEYVAULT_NAME --query "value" -o tsv)
+DATABRICKS_TOKEN=$(az keyvault secret show --name "dbkstoken" --vault-name $AZ_KEYVAULT_NAME --query "value" -o tsv)
 
 
 if [[ $DevOps_Agent == "GitHub" ]]; then
