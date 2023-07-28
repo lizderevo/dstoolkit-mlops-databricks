@@ -9,7 +9,7 @@
       "value": "infrastructure/bicep/main.bicep"
     },
     "AZURE_DATABRICKS_APP_ID": {
-      "value": "2ff814a6-3304-4ab8-85cb-cd0e6f879c1d"
+      "value": "c6cb48dd-9e1f-45b6-a0b7-2006b911b0b9"
     },
     "MANAGEMENT_RESOURCE_ENDPOINT": {
       "value": "https://management.core.windows.net/"
